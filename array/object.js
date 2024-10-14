@@ -20,3 +20,12 @@ console.log(obj3.model);
 console.log(obj2.price);
 console.log(obj1.color);
 
+
+//array of obj
+var ara =[
+  {name:"pavel",age:23},
+  {name:"masum",age:14},
+  {name:"asma",age:20},
+]
+console.log(arr)
+console.log(arr[1].name)
