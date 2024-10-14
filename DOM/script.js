@@ -22,3 +22,25 @@ console.log(a);
 a.innerHTML="changed"
 a.style.color ='red'
 a.style.backgroundColor ="green"
+
+
+
+// addEvenListner part
+
+var h1=document.querySelector("h1")
+
+h1.addEventListener('click',function(){
+  h1.innerHTML="changed"
+  h1.style.color="black"
+})
+
+
+h1.addEventListener('mouseenter',function(){
+  h1.innerHTML="changed"
+  h1.style.color="black"
+})
+
+h1.addEventListener('dblclick',function(){
+  h1.innerHTML="changed"
+  h1.style.color="black"
+})
